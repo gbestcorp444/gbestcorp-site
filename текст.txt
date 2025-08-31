@@ -63,10 +63,25 @@
 
   <section id="gallery">
     <h2>Portfolio</h2>
-    <p style="text-align:center;">Below you can see examples of our work. (Add your photos to the <code>images/</code> folder and videos to the <code>videos/</code> folder)</p>
+    <p style="text-align:center;">Below you can see examples of our work.</p>
     <div class="gallery">
-      <!-- AUTO-GALLERY-START -->
-      <!-- AUTO-GALLERY-END -->
+
+      <!-- Пример фото -->
+      <a href="images/photo1.jpg" class="glightbox">
+        <img src="images/photo1.jpg" alt="Custom Cabinet">
+      </a>
+      <a href="images/photo2.jpg" class="glightbox">
+        <img src="images/photo2.jpg" alt="Wooden Door">
+      </a>
+      <a href="images/photo3.jpg" class="glightbox">
+        <img src="images/photo3.jpg" alt="Handmade Furniture">
+      </a>
+
+      <!-- Пример видео -->
+      <a href="videos/video1.mp4" class="glightbox">
+        <img src="https://via.placeholder.com/400x250.png?text=Video" alt="Video project">
+      </a>
+
     </div>
   </section>
 
